@@ -1,0 +1,25 @@
+#include<conio.h>
+int main()
+{
+ int n,r,s,x,num;
+
+ printf("Enter a number : ");
+ scanf("%d",&num);
+
+ printf("armstrong number Between 1 to %d :\n",num );
+ for(n=1;n<=num;n++)
+ {
+  x=n;
+  s=0;
+
+  while(x!=0)
+  {
+    r=x%10;
+    s=s+(r*r*r);
+    x=x/10;
+   }
+   if(s==n)
+    printf("%d\n",n);
+ }
+    return 0;
+}
