@@ -1,0 +1,23 @@
+#include<stdio.h>
+void main()
+{
+  
+   int a,b, larg;
+
+   printf("Enter Two Numbers\n");
+   scanf("%d %d",&a,&b);
+
+ 
+  if(a>b)
+  {
+    larg = a;
+  }
+  else
+  {
+    larg = b;
+  }
+
+
+    printf("Largest Number is : %d",larg);
+
+}
